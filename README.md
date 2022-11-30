@@ -3,7 +3,7 @@
 
 Transfer Pytorch model aonto C/C++ kernels, and then FPGA implementation. 
 
-More details and experiment data could be found in our paper "to be added".
+More details and experiment data could be found in our paper "to be added". And if you any question or want some adjustment from this work, it will become our pleasure and please don't hesitate to contact us.  
 
 Including:
 
