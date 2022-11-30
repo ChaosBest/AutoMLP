@@ -31,6 +31,14 @@ Including:
 
 Python, C/C++, HLS, Vivado
 
+sequenceDiagram
+    Features ->> HNN: Features explanation
+    Features ->> HNN: HNN architectures
+    Note left of HNN: Index: <br/>ROC, <br/>Acc, <br/>Time, <br/>Power, <br/> ...
+   
+    Note right of HNN: FPGA: <br/> Micro-Architecture<br/>Latency <br/>Power <br/> Compare with CPUs, <br/> ...
+    Note left of Features: CPU: <br/>Information Entropy, <br/>RR Interval, <br/>Features Describtions
+
 
 ### Chinese introduction/中文简介：
 
