@@ -37,3 +37,7 @@ Python, C/C++, HLS, Vivado
 ### Spanish introduction /西班牙语简介
 
 Una cadena de herramientas para transferir el modelo MLP de Pytoch a C/C++ y a la implantación de FPGA de forma automática。
+
+### French introduction
+
+Transfert du modèle Pytorch vers des noyaux C/C++, puis implémentation FPGA.
