@@ -13,6 +13,8 @@ Including:
     
     Parallel strategies for FPGA accelerated MLP.
 
+![flow](https://user-images.githubusercontent.com/107203941/204804467-9ea575c1-6449-4d55-ba14-d254c32c531b.png)
+
 
 ## Steps:
 1. generate model by its topology
