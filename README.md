@@ -14,6 +14,12 @@ Including:
     Parallel strategies for FPGA accelerated MLP.
 
 
+##Steps:
+1. generate model by its topology
+2. train model on Pytorch 
+3. read model and generate C/C++ kernel
+4. implement model onto a FPGA
+
 ## Updata list:
 
 2022-11-17 support more activation function in the framework and toolchain. 
