@@ -16,6 +16,8 @@ Including:
 ![flow](https://user-images.githubusercontent.com/107203941/204804467-9ea575c1-6449-4d55-ba14-d254c32c531b.png)
 
 
+Just in case it is not user-friendly enough. We are doing some updates for this toolchain. You can contact us and ask for it. We are happy to provide it and make it helpful.  
+
 ## Steps:
 1. generate model by its topology
 2. train model on Pytorch 
