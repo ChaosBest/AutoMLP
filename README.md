@@ -30,6 +30,12 @@ Just in case it is not user-friendly enough. We are doing some updates for this 
 
 2022-11-18 support MLP model Generatr for training.
 
+2023 use script to enclose codes. 
+
+2024-01-17 A new script to generate. (I found the old version depend on dir. I want to make it easy.)
+
+![image](https://github.com/ChaosBest/AutoMLP/assets/107203941/4c91f502-af75-46fc-8f90-f7d78e488de8)
+
 
 Python, C/C++, HLS, Vivado
 
