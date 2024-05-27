@@ -1,6 +1,8 @@
 #ifndef DATA_2D_HPP
 #define DATA_2D_HPP
 
+// A example data from CPSC_2021 datasets data_25_1
+
 const int data_len = 1635;
 const float data[1635][7] = {
 	{1, -133, 150, 1140, 670, 10100, 631.25},
