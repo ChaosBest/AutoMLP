@@ -1,3 +1,31 @@
+import torch
+from torch import nn
+
+class Net(nn.Module): # define MLP model
+    def __init__(self, input_size, hidden_size, output_size):
+        super(Net, self).__init__()
+        self.fc1 = nn.Linear(input_size, hidden_size)
+        self.relu = nn.ReLU()
+        self.tanh = nn.Tanh()
+        self.fc2 = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x):
+        x = self.fc1(x)
+        # x = self.relu(x)
+        x = self.tanh(x)
+        x = self.fc2(x)
+        return x
+
+activ_func = 'tanh'
+
+Lay = [6,4,1] # input_size, hidden_size, output_size
+
+loc_model = '../'
+name_model = 'model.pth'
+loc_gen = './'
+name_gen = 'AutoMLP_gen.cpp'
+
+
 m_state_dict = torch.load(loc_model+name_model)
 # cpp_front= open(loc_model+"AutoMLP_00_head.cpp")     ## 把这个头文件放在模型目录，如果放其它目录，修改这里的位置
 cpp_front= open("./AutoMLP_00_head.cpp")     ## where script is!
