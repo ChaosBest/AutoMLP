@@ -3,7 +3,9 @@
 
 Transfer Pytorch model aonto C/C++ kernels, and then FPGA implementation. 
 
-More details and experiment data could be found in our paper "to be added". And if you any question or want some adjustment from this work, it will become our pleasure and please don't hesitate to contact us.  
+More details and experiment data could be found in our paper "AutoMLP: A Framework for the Acceleration of Multi-Layer Perceptron Models on FPGAs for Real-Time ...". And if you any question or want some adjustment from this work, it will become our pleasure and please don't hesitate to contact us.  
+
+C. Chen, B. da Silva, C. Yang, C. Ma, J. Li and C. Liu, "AutoMLP: A Framework for the Acceleration of Multi-Layer Perceptron Models on FPGAs for Real-Time Atrial Fibrillation Disease Detection," in IEEE Transactions on Biomedical Circuits and Systems, vol. 17, no. 6, pp. 1371-1386, Dec. 2023, doi: 10.1109/TBCAS.2023.3299084. keywords: {Field programmable gate arrays;Real-time systems;Topology;Feature extraction;Multilayer perceptrons;Machine learning;Atrial fibrillation;Multi-layer perceptron network (MLP);machine learning;field-programmable gate array (FPGA);atrial fibrillation (AF);high-levels synthesis (HLS);framework},
 
 Including:
 
