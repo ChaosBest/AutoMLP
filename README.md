@@ -36,6 +36,8 @@ Just in case it is not user-friendly enough. We are doing some updates for this 
 
 2024-01-17 A new script to generate. (I found the old version depend on dir. I want to make it easy.)
 
+2024-06-17 Accept and include more test from one contributor. Thanks ^_^
+
 ![image](https://github.com/ChaosBest/AutoMLP/assets/107203941/0faa6279-4ffc-4404-9b20-77c18fb34fbd)
 
 
